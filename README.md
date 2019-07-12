@@ -14,6 +14,6 @@ Production practice of gourp six, 2019
 逻辑分析：点击todolist按钮可进入ToDoListActivity，点击设置可进入SettingActivity。 <br>
 
 ## 第二次修改：林云 杨建文 7.12<br>
-新增加了Day1-Day7七个，以及zhuyili、shijue、jiyili、bianbieli四个，总共八个activity。<br>
+新增加了Day1-Day7七个，以及zhuyili、shijue、jiyili、bianbieli四个，总共十一个activity。<br>
 day1-day7每个当中有两个事件按钮，跳转至相应事件。<br>
 点击主界面to do list按钮后，通过读取系统时间周几进入相应的day界面。点击事件名称进入相应事件详情，事件详情中按钮跳转至相应游戏。<br>
