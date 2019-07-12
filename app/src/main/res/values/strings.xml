@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Production-Practice</string>
+    <string name="button1_name">To Do List</string>
+    <string name="button2_name">Music</string>
+    <string name="button3_name">Game</string>
+    <string name="button4_name">Forum</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+    <TextView
+        android:id="@+id/tips_2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:text="今日任务"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/shijian_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/right_2"
+        android:layout_below="@+id/tips_2"
+        android:layout_marginTop="20dp"
+        android:text="短时记忆力训练"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/shijian_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/right_2"
+        android:layout_below="@+id/shijian_1"
+        android:layout_marginTop="20dp"
+        android:text="辨别力训练"
+        android:textSize="20sp"/>
+
+
+
+    <Button
+        android:id="@+id/day2_6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sunday"/>
+
+    <Button
+        android:id="@+id/day2_5"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/day2_6"
+        android:background="@drawable/saturday"/>
+
+    <Button
+        android:id="@+id/day2_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/friday"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/day2_5" />
+
+    <Button
+        android:id="@+id/day2_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/thursday"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/day2_4" />
+
+    <Button
+        android:id="@+id/day2_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/day2_3"
+        android:background="@drawable/wednesday"/>
+
+    <Button
+        android:id="@+id/day2_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/mon_1"
+        android:background="@drawable/monday"/>
+
+    <TextView
+        android:id="@+id/mon_1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/day2_2"
+        android:background="#80000000"
+        android:text="周二"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>
