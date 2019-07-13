@@ -10,7 +10,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+
 import java.util.Calendar;
+
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -66,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
 
+                Intent intent = new Intent(MainActivity.this, ToDoListActivity.class);
+                startActivity(intent);
             }
         });
     }
