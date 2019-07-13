@@ -9,7 +9,8 @@ Production practice of gourp six, 2019
 #
 
 ## 第一次修改：程航 7.11 <br>
-简介：新增加了MainActivity、SettingActivity、ToDoListActivity及其相关布局的layout文件，以及一个用在MainActivity上的main_menu <br>
+简    介：新增加了MainActivity、SettingActivity、ToDoListActivity及其相关布局的layout文件，以及一个用在MainActivity上的main_menu <br>
 元素描述：MainActivity中共有4个按钮button1、button2、button3、button4，分别对应todolist、music、game、forum。一张图片imageView。设置memu一个，其中包含main_menu_item1、main_menu_item2、main_menu_item3，分别对应设置、关于我们、其他。 <br>
+活动描述：MainActivity是主活动，与todolist相关的活动应该写在ToDoListActivity中，与设置有关的活动应该写在SettingActivity中，ToDoListActivity的下一级应该还有一个代办事项的活动，这里并没有创建。 <br>
 逻辑分析：点击todolist按钮可进入ToDoListActivity，点击设置可进入SettingActivity。 <br>
 
