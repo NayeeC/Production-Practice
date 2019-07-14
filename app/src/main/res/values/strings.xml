@@ -4,4 +4,11 @@
     <string name="button2_name">Music</string>
     <string name="button3_name">Game</string>
     <string name="button4_name">Forum</string>
+    <string name="setting">点击我跳设置</string>
+    <string name="my_setting_name">设置</string>
+    <string name="change_setting_name">编辑个人信息</string>
+    <string name="help">使用帮助</string>
+    <string name="feedback">用户反馈</string>
+    <string name="declare">使用声明与隐私声明</string>
+    <string name="aboutus">关于我们</string>
 </resources>
