@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".BianbieliActivity"></activity>
+        <activity android:name=".JiyiliActivity" />
+        <activity android:name=".ShijueActivity" />
+        <activity android:name=".ZhuyiliActivity" />
+        <activity android:name=".SettingActivity" />
         <activity android:name=".ToDoListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
