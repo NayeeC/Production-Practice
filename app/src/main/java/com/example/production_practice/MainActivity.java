@@ -10,18 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-
-import java.util.Calendar;
-
-
 public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
-
-    private static String mWay;
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -43,31 +37,6 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Calendar calendar = Calendar.getInstance();
-                mWay = String.valueOf(calendar.get(Calendar.DAY_OF_WEEK));
-                if("1".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day7Activity.class);
-                    startActivity(intent);
-                }else if("2".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day1Activity.class);
-                    startActivity(intent);
-                }else if("3".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day2Activity.class);
-                    startActivity(intent);
-                }else if("4".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day3Activity.class);
-                    startActivity(intent);
-                }else if("5".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day4Activity.class);
-                    startActivity(intent);
-                }else if("6".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day5Activity.class);
-                    startActivity(intent);
-                }else if("7".equals(mWay)){
-                    Intent intent = new Intent(MainActivity.this, Day6Activity.class);
-                    startActivity(intent);
-                }
-
                 Intent intent = new Intent(MainActivity.this, ToDoListActivity.class);
                 startActivity(intent);
             }
