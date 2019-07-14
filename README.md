@@ -14,3 +14,8 @@ Production practice of gourp six, 2019
 活动描述：MainActivity是主活动，与todolist相关的活动应该写在ToDoListActivity中，与设置有关的活动应该写在SettingActivity中，ToDoListActivity的下一级应该还有一个代办事项的活动，这里并没有创建。 <br>
 逻辑分析：点击todolist按钮可进入ToDoListActivity，点击设置可进入SettingActivity。 <br>
 
+
+## 第三次修改：杨建文 7.14<br>
+新增加了七个fragment，分别对应一周的每一天，以及zhuyili、shijue、jiyili、bianbieli四个activity。每个fragment对应一个布局文件，每个activity对应一个布局文件。<br>
+todolist中有七个按钮，点击可显示该日对应的fragment，每个fragment中有两个事件按钮，可跳转至相应事件。每个事件activity中有一个按钮（之后跳转至相应游戏）。<br>
+打开todolist后，根据系统时间显示相应的fragment。<br>
