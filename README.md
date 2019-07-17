@@ -19,3 +19,8 @@ Production practice of gourp six, 2019
 新增加了七个fragment，分别对应一周的每一天，以及zhuyili、shijue、jiyili、bianbieli四个activity。每个fragment对应一个布局文件，每个activity对应一个布局文件。<br>
 todolist中有七个按钮，点击可显示该日对应的fragment，每个fragment中有两个事件按钮，可跳转至相应事件。每个事件activity中有一个按钮（之后跳转至相应游戏）。<br>
 打开todolist后，根据系统时间显示相应的fragment。<br>
+
+
+## 第四次修改：黄蒋昊 7.15<br>
+setting界面，添加了setting my_setting_name change_setting_name help feedback declare aboutus 按钮分别加上前置图标。<br>
+
