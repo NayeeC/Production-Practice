@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_1"
+            android:layout_marginTop="5dp"
+            android:text="辨别力训练"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_2"
+            android:layout_below="@+id/tv_1"
+            android:layout_marginTop="20dp"
+            android:text="时间"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#999999"
+            android:layout_below="@+id/tv_2"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_3"
+            android:layout_below="@id/tv_2"
+            android:layout_marginTop="10dp"
+            android:text="10:30-11:30"
+            android:textSize="18sp"
+            android:textColor="#999999"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_4"
+            android:layout_below="@id/tv_3"
+            android:layout_marginTop="20dp"
+            android:text="说明"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#999999"
+            android:layout_below="@+id/tv_4"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/iv_1"
+            android:layout_below="@+id/tv_4"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitCenter"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_5"
+            android:text="游戏介绍：找不同利用孩子比较熟悉的图形、图片、动漫形象对比不同来逐渐增加训练的难度，每张图上至少设置3-4个不同，要求完整找出才可以过关。
+涂鸦类似于涂色游戏，给出指定图形和颜色，要求在后面的空白图形中给相应图形补充颜色。两种游戏均采用闯关的形式，根据孩子闯关数量对孩子表现进行评价。
+"
+            android:textSize="18sp"
+            android:textColor="#999999"
+            android:layout_below="@id/iv_1"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_6"
+            android:text="开始前准备：家长在训练开始前向孩子简单讲述游戏规则并尽可能使孩子保持平静状态，然后将手机交予孩子。孩子进行训练过程中可能会出现注意力分散、停止训练等情况，需要家长实时在旁进行监督及时纠正孩子行为，提供鼓励；
+"
+            android:textSize="18sp"
+            android:textColor="#999999"
+            android:layout_below="@id/tv_5"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_7"
+            android:text="场景：孩子进行训练过程中可能会出现注意力分散、停止训练等情况，需要家长实时在旁进行监督及时纠正孩子行为，提供鼓励；
+"
+            android:textSize="18sp"
+            android:textColor="#999999"
+            android:layout_below="@id/tv_6"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_7"
+            android:layout_marginTop="30dp"
+            android:text="开始"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</ScrollView>
