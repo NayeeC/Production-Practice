@@ -1,13 +1,16 @@
 <resources>
     <string name="app_name">Production-Practice</string>
-    <string name="button1_name">To Do List</string>
-    <string name="button2_name">Music</string>
-    <string name="button3_name">Game</string>
-    <string name="button4_name">Forum</string>
-    <string name="start">Start</string>
-    <string name="stop">Stop</string>
-
-
+    <string name="button1_name">计  划</string>
+    <string name="button2_name">音  乐</string>
+    <string name="button3_name">游  戏</string>
+    <string name="button4_name">按  摩</string>
+    <string name="setting">点击我跳设置</string>
+    <string name="my_setting_name">设置</string>
+    <string name="change_setting_name">编辑个人信息</string>
+    <string name="help">使用帮助</string>a
+    <string name="feedback">用户反馈</string>
+    <string name="declare">使用声明与隐私声明</string>
+    <string name="aboutus">关于我们</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

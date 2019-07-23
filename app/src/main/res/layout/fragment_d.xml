@@ -2,32 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0FFFF"
     android:padding="20dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="周三任务"
+        android:textStyle="bold"
         android:id="@+id/tv"
-        android:textSize="20sp"
+        android:textSize="40sp"
         android:gravity="center"
         android:layout_marginTop="10dp"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
         android:id="@+id/zhuyili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shapethu"
+        android:textStyle="bold"
+        android:drawableBottom="@drawable/dog"
         android:text="短时记忆力训练"
-        android:textSize="20sp"/>
+        android:textSize="26sp" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp"
         android:id="@+id/shijue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapethu"
+        android:textStyle="bold"
+        android:drawableBottom="@drawable/cat"
         android:text="辨别力训练"
-        android:textSize="20sp"
-        />
+        android:textSize="26sp" />
 
 </LinearLayout>
