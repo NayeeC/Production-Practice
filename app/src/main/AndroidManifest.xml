@@ -11,6 +11,10 @@
         android:theme="@style/AppTheme">
         <activity android:name=".GameViewActivity"></activity>
         <activity android:name=".GameActivity" />
+        <activity android:name=".MusicActivity.Music3Activity"></activity>
+        <activity android:name=".MusicActivity.Music2Activity" />
+        <activity android:name=".MusicListActivity" />
+        <activity android:name=".MusicActivity.MusicActivity" />
         <activity android:name=".BianbieliActivity" />
         <activity android:name=".JiyiliActivity" />
         <activity android:name=".ShijueActivity" />

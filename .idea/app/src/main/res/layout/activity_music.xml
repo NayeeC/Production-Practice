@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv"
+                android:layout_marginTop="20dp"
+                android:text="种太阳     幸福拍手歌     我是一条小青龙     蜗牛与黄鹂鸟     数鸭子     "
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/iv"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/zheng"
+                android:scaleType="centerCrop"/>
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv"
+                android:layout_marginTop="60dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/seekbar"
+                android:layout_marginTop="20dp"
+                android:padding="20dp">
+                <Button
+                    android:id="@+id/stop"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/beginning" />
+
+                <Button
+                    android:id="@+id/pause"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="80dp"
+                    android:background="@drawable/pause"/>
+
+                <Button
+                    android:id="@+id/start"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="80dp"
+                    android:background="@drawable/end" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
