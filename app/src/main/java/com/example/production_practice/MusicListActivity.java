@@ -1,11 +1,11 @@
 package com.example.production_practice;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.production_practice.MusicActivity.Music2Activity;
 import com.example.production_practice.MusicActivity.Music3Activity;
