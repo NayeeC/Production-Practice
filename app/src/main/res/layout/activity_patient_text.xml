@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/patient"
+            android:textColor="@color/home_text_black"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/iv_setting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/left_back"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:id="@+id/tv_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="病情程度:"
+            android:textColor="@color/home_text_black"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_power_message"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_power"
+            android:background="@null"
+            android:text="AAAAAAA"
+            android:gravity="center"
+            android:textColor="@color/home_text_black"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="B"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="病情分析"
+            android:textColor="@color/home_text_black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_fenxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:text="XXXXXXXX"
+            android:textColor="@color/home_text_black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="指导意见"
+            android:textColor="@color/home_text_black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_yijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:text="XXXXXXXX"
+            android:textColor="@color/home_text_black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/change_setting_name"
+            android:textColor="@color/home_text_black"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/iv_setting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/left_back"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="孩子的年龄:"
+            android:textColor="@color/home_text_black"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_age"
+            android:background="@null"
+            android:hint="请输入您孩子的年龄"
+            android:textColor="@color/home_text_black"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="B"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="孩子的性别:"
+        android:textColor="@color/home_text_black"
+        android:textSize="16sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男孩"/>
+
+        <RadioButton
+            android:id="@+id/btnWoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女孩"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="您是孩子的:"
+        android:textColor="@color/home_text_black"
+        android:textSize="16sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnBB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爸爸"/>
+
+        <RadioButton
+            android:id="@+id/btnMM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="妈妈"/>
+
+        <RadioButton
+            android:id="@+id/btnQT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:enabled="false"
+        android:background="@null"
+        android:text="保存"/>
+</LinearLayout>

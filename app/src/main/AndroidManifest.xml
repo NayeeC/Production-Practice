@@ -11,12 +11,12 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".GameActivity"></activity>
-        <activity android:name=".BianbieliActivity" />
-        <activity android:name=".JiyiliActivity" />
-        <activity android:name=".ShijueActivity" />
-        <activity android:name=".ZhuyiliActivity" />
-        <activity android:name=".SettingActivity" />
-        <activity android:name=".ToDoListActivity" />
+        <activity android:name=".BianbieliActivity"/>
+        <activity android:name=".JiyiliActivity"/>
+        <activity android:name=".ShijueActivity"/>
+        <activity android:name=".ZhuyiliActivity"/>
+        <activity android:name=".SettingActivity"/>
+        <activity android:name=".ToDoListActivity"/>
         <activity android:name=".SettingActivity"></activity>
         <activity android:name=".ToDoListActivity"/>
         <activity android:name=".MainActivity">
@@ -28,6 +28,30 @@
         </activity>
         <activity
             android:name=".MySettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        </activity>
+        <activity
+            android:name=".EditAccountMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        </activity>
+        <activity
+            android:name=".PatientTextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        </activity>
+        <activity
+            android:name=".TextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        </activity>
+        <activity
+            android:name=".FeedBackActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
