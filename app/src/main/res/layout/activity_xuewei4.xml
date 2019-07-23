@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#31000000"
+            />
+        <ProgressBar
+            android:id="@+id/sb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_below="@id/tv_1"
+            android:max="180"
+            android:progress="0"/>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/sb_1"
+            android:background="#31000000"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/xiayishou4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_2"
+            android:text="下一节"
+            />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_toLeftOf="@id/xiayishou4"
+            android:layout_below="@id/tv_2"/>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@id/tv_3"
+            android:layout_below="@id/tv_2"
+            android:text="播放"
+            android:onClick="onClickStart"
+            />
+
+        <Button
+            android:id="@+id/jieshu"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@id/tv_3"
+            android:layout_below="@id/start"
+            android:text="结束"
+            android:onClick="onClickStop"
+            />
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_toLeftOf="@id/jieshu"
+            android:layout_below="@id/tv_2"/>
+
+        <Button
+            android:id="@+id/shangyishou4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toLeftOf="@id/tv_4"
+            android:layout_below="@id/tv_2"
+            android:text="上一节"
+            />
+
+        <ImageView
+            android:id="@+id/png_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jieshu"
+            android:background="@drawable/routaiyang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_1"
+            android:layout_below="@id/png_1"
+            android:text="用拇指或中指指端按揉眉梢与外眼角中间，向后约1寸凹陷中50次"
+            android:textSize="30sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView >

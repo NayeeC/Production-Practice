@@ -1,5 +1,7 @@
 package com.example.production_practice.MusicActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -13,7 +15,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.production_practice.R;
-
 
 public class Music2Activity extends Activity {
     private Button stop;
@@ -104,7 +105,7 @@ public class Music2Activity extends Activity {
     }
 
     @Override
-    public boolean onKeyDown(int keyCode,KeyEvent event){
+    public boolean onKeyDown(int keyCode, KeyEvent event){
         if (keyCode == KeyEvent.KEYCODE_BACK){
             android.os.Process.killProcess(android.os.Process.myPid());
             return true;
