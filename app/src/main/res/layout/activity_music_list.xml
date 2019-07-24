@@ -15,32 +15,42 @@
                 android:layout_height="60dp"
                 android:id="@+id/gequyi"
                 android:gravity="center_vertical"
-                android:text="     正性音乐"
+                android:text="     正性音乐（种太阳     幸福拍手歌     我是一条小青龙     蜗牛与黄鹂鸟     数鸭子     ）"
+                android:typeface="serif"
                 android:textSize="20sp"
-                android:background="#fff"/>
+                android:background="#fff"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:id="@+id/gequer"
-                android:text="     中性音乐"
+                android:text="     中性音乐（布谷鸟     勾勾手指头     采蘑菇的小姑娘      来升旗      我们多么幸福     ）"
+                android:typeface="serif"
                 android:gravity="center_vertical"
                 android:textSize="20sp"
                 android:layout_below="@+id/gequyi"
                 android:layout_marginTop="1dp"
                 android:background="#fff"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
                 />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:id="@+id/gequsan"
-                android:text="     负性音乐"
+                android:text="     负性音乐（让我们荡起双桨      鲁冰花      小草      虫儿飞      ）"
+                android:typeface="serif"
                 android:gravity="center_vertical"
                 android:textSize="20sp"
                 android:layout_below="@+id/gequer"
                 android:layout_marginTop="1dp"
                 android:background="#fff"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
                 />
         </RelativeLayout>
     </ScrollView>

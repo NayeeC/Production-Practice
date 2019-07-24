@@ -111,6 +111,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/shuerte"
             android:layout_below="@id/tv_7"
             android:layout_marginTop="30dp"
             android:text="开始"
