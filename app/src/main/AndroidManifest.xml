@@ -23,7 +23,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-        </activity>/>
+        </activity>
         <activity android:name=".MusicActivity.Music3Activity" />
         <activity android:name=".MusicActivity.Music2Activity" />
         <activity android:name=".MusicActivity.MusicActivity" />
