@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical">
+              android:orientation="vertical"
+    android:padding="10dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="空白页"
+            android:text="使用帮助"
             android:textColor="@color/home_text_black"
             android:textSize="18sp"/>
 
@@ -29,6 +30,32 @@
             android:paddingTop="10dp"
             android:src="@drawable/left_back"
             />
-
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.每日任务:合理规律的计划表养成孩子的好习惯.
+"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.音乐疗法:美妙动听的音乐安静孩子躁动的心灵."
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.游戏疗法:简单有趣的小游戏锻炼孩子的记忆力."
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.按摩疗法:结合中医辅助治疗，达到更好的效果."
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>

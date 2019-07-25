@@ -59,11 +59,11 @@ public class SettingActivity extends Activity implements View.OnClickListener {
                 startActivity(intent2);
                 break;
             case R.id.ll_declare:
-                Intent intent3 = new Intent(this, TextActivity.class);
+                Intent intent3 = new Intent(this, YinsiActivity.class);
                 startActivity(intent3);
                 break;
             case R.id.ll_about_us:
-                Intent intent4 = new Intent(this, TextActivity.class);
+                Intent intent4 = new Intent(this, GuanyuActivity.class);
                 startActivity(intent4);
                 break;
         }
