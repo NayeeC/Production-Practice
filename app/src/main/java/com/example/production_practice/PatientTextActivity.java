@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -20,9 +21,10 @@ public class PatientTextActivity extends Activity {
     private LinearLayout llBootom;
     private TextView tvText;
     private ImageView ivBack;
-    private String[] provinces = new String[]{"轻微", "中度", "重度"};
-    private String[] des = new String[]{"轻微轻微轻微轻微", "中度中度中度中度中度", "重度重度重度重度重度"};
-    private String[] answer = new String[]{"睡觉睡觉睡觉", "吃药吃药吃药", "手术手术手术"};
+    private String[] provinces = new String[]{"较轻", "明显", "严重"};
+    private String[] des = new String[]{"学习无困难，但有多动行为，思想不很集中或冲动任性，扰乱课堂秩序。", "多动表现不突出，但思想很难集中，学习困难严重，成绩很差或逐渐下降。", "多动、注意力不集中、学习行为障碍、任性冲动。"};
+    private String[] answer = new String[]{"可先进行心理指导和行为训练。", "宜试用药物治疗，观察效果。", "经脑诱发电位及心理测试确诊后应立即开始药物治疗。"};
+    private Button mCeshi;
 
     private int index = 0;
 
@@ -67,6 +69,14 @@ public class PatientTextActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PatientTextActivity.this, TextActivity.class);
+                startActivity(intent);
+            }
+        });
+        mCeshi = findViewById(R.id.ceshi);
+        mCeshi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PatientTextActivity.this,WenjuanActivity.class);
                 startActivity(intent);
             }
         });

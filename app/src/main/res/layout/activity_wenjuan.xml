@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_title"
+                android:text="儿童多动症行为诊断量表"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1"
+                android:text="1.坐立不安，活动过多："
+                android:textSize="20dp"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_1"
+                android:layout_below="@+id/tv1"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_11"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_12"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_13"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_14"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv2"
+                android:text="2.上课时随便讲话或叫喊："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_1"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_2"
+                android:layout_below="@+id/tv2"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_21"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_22"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_23"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_24"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv3"
+                android:text="3.上课时小动作多："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_2"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_3"
+                android:layout_below="@+id/tv3"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_31"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_32"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_33"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_34"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv4"
+                android:text="4.注意力不集中，容易分心："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_3"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_4"
+                android:layout_below="@+id/tv4"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_41"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_42"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_43"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_44"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"
+                android:text="5.兴奋激动，容易冲动，与人争吵："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_4"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_5"
+                android:layout_below="@+id/tv5"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_51"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_52"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_53"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_54"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv6"
+                android:text="6.容易惹人或干扰他人活动："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_5"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_6"
+                android:layout_below="@+id/tv6"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_61"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_62"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_63"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_64"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv7"
+                android:text="7.作业不认真，不能集中思想，边做边玩："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_6"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_7"
+                android:layout_below="@+id/tv7"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_71"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_72"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_73"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_74"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv8"
+                android:text="8.做事不能有始有终"
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_7"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_8"
+                android:layout_below="@+id/tv8"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_81"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_82"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_83"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_84"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv9"
+                android:text="9.情绪变化快："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_8"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_9"
+                android:layout_below="@+id/tv9"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_91"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_92"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_93"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_94"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv10"
+                android:text="10.集体活动时好占上风，争先恐后，不守纪律："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_9"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_10"
+                android:layout_below="@+id/tv10"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_a1"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_a2"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_a3"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_a4"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv11"
+                android:text="11.学习成绩差或时好时坏："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_10"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_11"
+                android:layout_below="@+id/tv11"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_b1"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_b2"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_b3"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_b4"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv12"
+                android:text="12.不爱惜东西，经常弄坏学习用品："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_11"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_12"
+                android:layout_below="@+id/tv12"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_c1"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_c2"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_c3"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_c4"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv13"
+                android:text="13.说谎、骂人、爱打架："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_12"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_13"
+                android:layout_below="@+id/tv13"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_d1"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_d2"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_d3"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_d4"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv14"
+                android:text="14.随便拿父母的钱，或在外有偷窃行为："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_13"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_14"
+                android:layout_below="@+id/tv14"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_e1"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_e2"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_e3"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_e4"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv15"
+                android:text="15.逃学或旷课："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_14"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_15"
+                android:layout_below="@+id/tv15"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_f1"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_f2"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_f3"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_f4"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv16"
+                android:text="16.要求必须立即满足："
+                android:textSize="20dp"
+                android:layout_below="@+id/rg_15"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_16"
+                android:layout_below="@+id/tv16"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_01"
+                    android:text="无"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_02"
+                    android:text="稍有"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_03"
+                    android:text="较多"
+                    android:textSize="18sp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_04"
+                    android:text="很多"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/tijiao"
+                android:text="提交"
+                android:textSize="20sp"
+                android:layout_below="@+id/rg_16"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

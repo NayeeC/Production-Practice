@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".WenjuanActivity"
+            android:label="测试"
+            android:parentActivityName=".PatientTextActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameViewActivity" />
-        <activity android:name=".GameActivity"
+        <activity android:name=".GameViewActivity"
+            android:label="舒尔特方格"/>
+        <activity
+            android:name=".GameActivity"
             android:label="游戏"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -27,153 +36,164 @@
         <activity android:name=".MusicActivity.Music3Activity" />
         <activity android:name=".MusicActivity.Music2Activity" />
         <activity android:name=".MusicActivity.MusicActivity" />
-        <activity android:name=".MusicListActivity"
+        <activity
+            android:name=".MusicListActivity"
             android:label="音乐列表"
             android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity android:name=".caozuoActivity" />
-        <activity android:name=".anmoActivity"
+        <activity
+            android:name=".anmoActivity"
             android:label="按摩"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei9Activity"
+        <activity
+            android:name=".xuewei9Activity"
             android:label="捏背"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei8Activity"
+        <activity
+            android:name=".xuewei8Activity"
             android:label="按揉背俞穴"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei7Activity"
+        <activity
+            android:name=".xuewei7Activity"
             android:label="按揉四肢穴位"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei6Activity"
+        <activity
+            android:name=".xuewei6Activity"
             android:label="按揉气海"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei5Activity"
+        <activity
+            android:name=".xuewei5Activity"
             android:label="摩腹"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei4Activity"
+        <activity
+            android:name=".xuewei4Activity"
             android:label="揉太阳穴"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei3Activity"
+        <activity
+            android:name=".xuewei3Activity"
             android:label="分推坎宫"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei2Activity"
+        <activity
+            android:name=".xuewei2Activity"
             android:label="开天门"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".xuewei1Activity"
+        <activity
+            android:name=".xuewei1Activity"
             android:label="按揉百会"
             android:parentActivityName=".anmoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".BianbieliActivity"
+        <activity
+            android:name=".BianbieliActivity"
             android:label="辨别力训练"
             android:parentActivityName=".ToDoListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".JiyiliActivity"
+        <activity
+            android:name=".JiyiliActivity"
             android:label="短时记忆力训练"
             android:parentActivityName=".ToDoListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ShijueActivity"
+        <activity
+            android:name=".ShijueActivity"
             android:label="视觉追踪训练"
             android:parentActivityName=".ToDoListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ZhuyiliActivity"
+        <activity
+            android:name=".ZhuyiliActivity"
             android:label="注意力维持训练"
             android:parentActivityName=".ToDoListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".SettingActivity"
+        <activity
+            android:name=".SettingActivity"
             android:label="设置"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ToDoListActivity"
+        <activity
+            android:name=".ToDoListActivity"
             android:label="每日任务"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
-
-    </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".EditAccountMessageActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
         <activity
             android:name=".PatientTextActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
         <activity
             android:name=".TextActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
         <activity
             android:name=".FeedBackActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 
 </manifest>

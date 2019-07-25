@@ -331,17 +331,4 @@
         android:layout_height="1px"
         android:background="#e8e8e8"/>
 
-    <TextView
-        android:id="@+id/tvDes"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:background="#ffffff"
-        android:gravity="center"
-        android:text="我不知道显示什么"
-        android:textColor="@color/home_text_black"
-        android:textSize="14sp"
-        />
-
 </LinearLayout>
