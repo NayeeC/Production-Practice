@@ -2,6 +2,7 @@ package com.example.production_practice;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -29,6 +30,8 @@ public class EditAccountMessageActivity extends Activity {
     private Button btnSave;
     private ImageView ivBack;
     private TextView tvText;
+    private SharedPreferences mSP;
+    private SharedPreferences.Editor mEditor;
 
     @Override
 
@@ -41,6 +44,11 @@ public class EditAccountMessageActivity extends Activity {
         btnSave = findViewById(R.id.btn_save);
         ivBack = findViewById(R.id.iv_setting_back);
         tvText = findViewById(R.id.tv_text);
+
+        mSP = getSharedPreferences("data",MODE_PRIVATE);
+        mEditor = mSP.edit();
+        etAge.setText(mSP.getString("nianling",""));
+
         TextWatcher watcher = new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -86,6 +94,9 @@ public class EditAccountMessageActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "恭喜你保存成功", Toast.LENGTH_LONG).show();
+                mEditor.putString("nianling",etAge.getText().toString());
+                mEditor.commit();
+                etAge.setText(mSP.getString("nianling",""));
             }
         });
         ivBack.setOnClickListener(new View.OnClickListener() {
