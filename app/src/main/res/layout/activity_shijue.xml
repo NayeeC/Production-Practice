@@ -16,7 +16,7 @@
             android:layout_marginTop="5dp"
             android:text="视觉追踪训练"
             android:textStyle="bold"
-            android:textSize="30sp"/>
+            android:textSize="30sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,10 +64,12 @@
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:id="@+id/iv_1"
+            android:src="@drawable/migong"
             android:layout_below="@+id/tv_4"
             android:layout_marginTop="15dp"
             android:scaleType="fitCenter"
-            android:background="#000" />
+            android:background="#FFFAF0"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:layout_width="wrap_content"

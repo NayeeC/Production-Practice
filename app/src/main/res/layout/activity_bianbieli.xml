@@ -62,12 +62,14 @@
 
         <ImageView
             android:layout_width="300dp"
-            android:layout_height="200dp"
+            android:layout_height="300dp"
             android:id="@+id/iv_1"
+            android:src="@drawable/zhaobutong"
             android:layout_below="@+id/tv_4"
             android:layout_marginTop="15dp"
             android:scaleType="fitCenter"
-            android:background="#000" />
+            android:background="#FFFAF0"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:layout_width="wrap_content"
