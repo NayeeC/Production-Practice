@@ -3,13 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFAF0"
+    android:background="#f5f5f5"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#FFFAF0"
+        android:background="#ffffff"
         >
 
         <TextView
@@ -17,8 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/my_setting_name"
-            android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textColor="@color/home_text_black"
+            android:textSize="18sp"/>
 
         <ImageView
             android:id="@+id/iv_setting_back"
@@ -73,8 +73,56 @@
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/change_setting_name"
+            android:textColor="@color/home_text_black"
+            android:textSize="12sp"/>
 
-            android:textSize="15sp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="35"
+            android:scaleType="fitStart"
+            android:src="@drawable/home_youjiantou"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e8e8e8"/>
+
+    <LinearLayout
+        android:id="@+id/ll_patient_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="750">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:src="@drawable/setting_help"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="600"
+            android:gravity="center_vertical"
+            android:text="@string/patient"
+            android:textColor="@color/home_text_black"
+            android:textSize="12sp"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -121,7 +169,8 @@
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/help"
-            android:textSize="15sp"/>
+            android:textColor="@color/home_text_black"
+            android:textSize="12sp"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -168,7 +217,8 @@
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/feedback"
-            android:textSize="15sp"/>
+            android:textColor="@color/home_text_black"
+            android:textSize="12sp"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -215,7 +265,8 @@
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/declare"
-            android:textSize="15sp"/>
+            android:textColor="@color/home_text_black"
+            android:textSize="12sp"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -262,7 +313,8 @@
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/aboutus"
-            android:textSize="15sp"/>
+            android:textColor="@color/home_text_black"
+            android:textSize="12sp"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -288,6 +340,7 @@
         android:background="#ffffff"
         android:gravity="center"
         android:text="我不知道显示什么"
+        android:textColor="@color/home_text_black"
         android:textSize="14sp"
         />
 
