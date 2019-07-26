@@ -14,4 +14,7 @@
     <string name="patient">病情测试与分析</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <color name="lightgray">#D3D3D3</color>
+    <color name="crimson">#DC143C</color>
 </resources>

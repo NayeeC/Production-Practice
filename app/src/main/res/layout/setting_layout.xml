@@ -3,13 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f5f5f5"
+    android:background="#FFFAF0"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#ffffff"
+        android:background="#FFFAF0"
         >
 
         <TextView
@@ -54,10 +54,12 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"/>
 
         <ImageView
             android:layout_width="0dp"
+            android:background="#FFFAF0"
             android:layout_height="match_parent"
             android:layout_weight="40"
             android:src="@drawable/setting_account"/>
@@ -65,6 +67,7 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="35"/>
 
         <TextView
@@ -72,6 +75,7 @@
             android:layout_height="match_parent"
             android:layout_weight="600"
             android:gravity="center_vertical"
+            android:background="#FFFAF0"
             android:text="@string/change_setting_name"
             android:textColor="@color/home_text_black"
             android:textSize="12sp"/>
@@ -80,6 +84,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="#FFFAF0"
             android:layout_weight="35"
             android:scaleType="fitStart"
             android:src="@drawable/home_youjiantou"
@@ -101,18 +106,21 @@
 
         <View
             android:layout_width="0dp"
+            android:background="#FFFAF0"
             android:layout_height="match_parent"
             android:layout_weight="40"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"
             android:src="@drawable/setting_help"/>
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="35"/>
 
         <TextView
@@ -120,6 +128,7 @@
             android:layout_height="match_parent"
             android:layout_weight="600"
             android:gravity="center_vertical"
+            android:background="#FFFAF0"
             android:text="@string/patient"
             android:textColor="@color/home_text_black"
             android:textSize="12sp"/>
@@ -127,6 +136,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="#FFFAF0"
             android:layout_gravity="center_vertical"
             android:layout_weight="35"
             android:scaleType="fitStart"
@@ -150,17 +160,20 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"
             android:src="@drawable/setting_help"/>
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="35"/>
 
         <TextView
@@ -169,12 +182,14 @@
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/help"
+            android:background="#FFFAF0"
             android:textColor="@color/home_text_black"
             android:textSize="12sp"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="#FFFAF0"
             android:layout_gravity="center_vertical"
             android:layout_weight="35"
             android:scaleType="fitStart"
@@ -198,23 +213,27 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"
             android:src="@drawable/seeting_feedback"/>
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="35"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="600"
+            android:background="#FFFAF0"
             android:gravity="center_vertical"
             android:text="@string/feedback"
             android:textColor="@color/home_text_black"
@@ -223,6 +242,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="#FFFAF0"
             android:layout_gravity="center_vertical"
             android:layout_weight="35"
             android:scaleType="fitStart"
@@ -246,10 +266,12 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"/>
 
         <ImageView
             android:layout_width="0dp"
+            android:background="#FFFAF0"
             android:layout_height="match_parent"
             android:layout_weight="40"
             android:src="@drawable/setting_declare"/>
@@ -257,11 +279,13 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="35"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="600"
             android:gravity="center_vertical"
             android:text="@string/declare"
@@ -271,6 +295,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="#FFFAF0"
             android:layout_gravity="center_vertical"
             android:layout_weight="35"
             android:scaleType="fitStart"
@@ -294,23 +319,27 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="40"
             android:src="@drawable/setting_aboutus"/>
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="#FFFAF0"
             android:layout_weight="35"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="600"
+            android:background="#FFFAF0"
             android:gravity="center_vertical"
             android:text="@string/aboutus"
             android:textColor="@color/home_text_black"
@@ -319,6 +348,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="#FFFAF0"
             android:layout_gravity="center_vertical"
             android:layout_weight="35"
             android:scaleType="fitStart"

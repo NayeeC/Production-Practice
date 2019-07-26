@@ -4,97 +4,207 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="#FFFAF0"
     android:orientation="vertical"
     >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
             android:id="@+id/shoufa"
+            android:layout_width="207dp"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFAF0"
             android:text="操作手法"
-            android:textSize="50sp"
-            />
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="123dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="258dp"
+            android:layout_marginLeft="258dp"
+            android:layout_marginTop="-9dp"
+            android:layout_marginBottom="44dp"
+            android:src="@drawable/zhongyi" />
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="101dp"
+            android:layout_marginBottom="44dp"
+            android:src="@drawable/zan" />
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="191dp"
+            android:layout_marginBottom="44dp"
+            android:src="@drawable/zan" />
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginBottom="44dp"
+            android:src="@drawable/zan" />
+
         <TextView
             android:id="@+id/liubai_1"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:layout_below="@id/shoufa"/>
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_1"
-            android:layout_below="@id/liubai_1"
-            android:text="按揉百会"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_below="@+id/liubai_1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/shape2"
+            android:text="按 揉 百 会"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_2"
-            android:layout_below="@id/xue_1"
-            android:text="开天门"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_below="@+id/xue_9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape2"
+            android:text="开 天 门"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_3"
-            android:layout_below="@id/xue_2"
-            android:text="分推坎宫"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_below="@+id/xue_5"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="分 推 坎 宫"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_4"
-            android:layout_below="@id/xue_3"
-            android:text="揉太阳"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_below="@+id/xue_5"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="揉 太 阳"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_5"
-            android:layout_below="@id/xue_4"
-            android:text="摩腹"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="410dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="摩   腹"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_6"
-            android:layout_below="@id/xue_5"
-            android:text="按揉气海"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_width="250dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="按 揉 气 海"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_7"
+            android:layout_width="250dp"
+            android:layout_height="63dp"
             android:layout_below="@id/xue_6"
-            android:text="按揉四肢穴位"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="126dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="按 揉 四 肢 穴 位"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_8"
+            android:layout_width="250dp"
+            android:layout_height="63dp"
             android:layout_below="@id/xue_7"
-            android:text="按揉背俞穴"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-158dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="按 揉 背 俞 穴"
+            android:textSize="20sp" />
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/xue_9"
-            android:layout_below="@id/xue_8"
-            android:text="捏背"
-            android:textSize="25sp"
-            android:background="#03A9F4"/>
-
-
+            android:layout_width="160dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="411dp"
+            android:background="@drawable/shape2"
+            android:text="捏   背"
+            android:textSize="20sp" />
 
 
     </RelativeLayout>

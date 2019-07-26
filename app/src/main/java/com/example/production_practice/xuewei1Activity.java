@@ -9,11 +9,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 public class xuewei1Activity extends AppCompatActivity {
-    private Button mbtnnext;
+    private ImageButton mbtnnext;
     private int seconds=0;
     private boolean running;
     private ProgressBar mPb;
@@ -24,7 +25,7 @@ public class xuewei1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xuewei1);
-        mbtnnext=(Button)findViewById(R.id.xiayishou);
+        mbtnnext=(ImageButton)findViewById(R.id.xiayishou);
         mbtnnext.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){

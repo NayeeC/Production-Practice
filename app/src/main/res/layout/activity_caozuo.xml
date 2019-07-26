@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="#FFFAF0"
     android:orientation="vertical"
     >
 
@@ -11,60 +12,102 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/view_1"
-        android:text="直推法：用指端或掌根或大鱼际或小鱼际、肘面、肘后、鹰嘴突起部着力于一定穴位或部位，缓缓地做单方向的直线推动的一种手法；"
-        android:textSize="25sp"
-        />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ima_1"
-            android:layout_below="@id/view_1"
-            android:background="@drawable/zhitui"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/view_2"
-            android:layout_below="@id/ima_1"
-            android:text="拿法：用拇指与其他手指指面或拇指与食、中二指为着力部位，对称用力，一紧一松，一拿一放， 拿取一定的穴位或部位的一种手法；"
+            android:id="@+id/view_1"
+            android:text="直推法：用指端或掌根或大鱼际或小鱼际、肘面、肘后、鹰嘴突起部着力于一定穴位或部位，缓缓地做单方向的直线推动的一种手法；"
             android:textSize="25sp"
+            android:typeface="serif"
             />
+
         <ImageView
+            android:id="@+id/ima_1"
+            android:layout_width="146dp"
+            android:layout_height="127dp"
+            android:layout_below="@id/view_1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/zhitui1" />
+
+        <ImageView
+            android:id="@+id/ima_1"
+            android:layout_width="147dp"
+            android:layout_height="127dp"
+            android:layout_below="@id/view_1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/zhitui2" />
+
+        <TextView
+            android:id="@+id/view_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/ima_1"
+            android:layout_marginTop="5dp"
+            android:text="拿法：用拇指与其他手指指面或拇指与食、中二指为着力部位，对称用力，一紧一松，一拿一放， 拿取一定的穴位或部位的一种手法；"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <ImageView
             android:id="@+id/ima_2"
+            android:layout_width="215dp"
+            android:layout_height="145dp"
             android:layout_below="@id/view_2"
-            android:background="@drawable/nafa"/>
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/nafa" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/view_3"
             android:layout_below="@id/ima_2"
+            android:typeface="serif"
             android:text="揉法：用掌或掌根或大鱼际、小鱼际、或手指拇指面以及肘尖部等其他部位着力，固定于一定的穴位或部位上，做轻柔缓和的回旋揉动的一种手法；"
             android:textSize="25sp"/>
+
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/ima_3"
+            android:layout_width="215dp"
+            android:layout_height="145dp"
             android:layout_below="@id/view_3"
-            android:background="@drawable/roufa"/>
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/roufa" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/view_4"
+            android:typeface="serif"
             android:layout_below="@id/ima_3"
             android:text="捏法：用拇指与食指、中指三指的指腹为着力部位，捏住一定部位，将皮肉捏起，对称用力做连续捻转挤捏的一种手法。"
             android:textSize="25sp"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/ima_4"
-            android:layout_below="@id/view_4"
-            android:background="@drawable/niefa"/>
 
+        <ImageView
+            android:id="@+id/ima_4"
+            android:layout_width="215dp"
+            android:layout_height="145dp"
+            android:layout_below="@id/view_4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/niefa" />
 
 
     </RelativeLayout>
