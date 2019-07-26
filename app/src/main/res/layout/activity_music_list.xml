@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="#FFFAF0"
     android:layout_height="match_parent">
 
     <ScrollView
@@ -10,48 +11,142 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:id="@+id/gequyi"
-                android:gravity="center_vertical"
-                android:text="     正性音乐（种太阳     幸福拍手歌     我是一条小青龙     蜗牛与黄鹂鸟     数鸭子     ）"
-                android:typeface="serif"
-                android:textSize="20sp"
-                android:background="#fff"
-                android:layout_centerHorizontal="true"
-                android:singleLine="true"
-                />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:id="@+id/gequer"
-                android:text="     中性音乐（布谷鸟     勾勾手指头     采蘑菇的小姑娘      来升旗      我们多么幸福     ）"
-                android:typeface="serif"
-                android:gravity="center_vertical"
-                android:textSize="20sp"
-                android:layout_below="@+id/gequyi"
-                android:layout_marginTop="1dp"
-                android:background="#fff"
-                android:layout_centerHorizontal="true"
-                android:singleLine="true"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:id="@+id/gequsan"
-                android:text="     负性音乐（让我们荡起双桨      鲁冰花      小草      虫儿飞      ）"
-                android:typeface="serif"
-                android:gravity="center_vertical"
-                android:textSize="20sp"
-                android:layout_below="@+id/gequer"
-                android:layout_marginTop="1dp"
-                android:background="#fff"
-                android:layout_centerHorizontal="true"
-                android:singleLine="true"
-                />
         </RelativeLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/gequsan"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gequyi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/shape1"
+        android:gravity="center_vertical"
+        android:text="     负性音乐"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="16dp"
+        android:text="请选择合适的音乐哦~"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="155dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginLeft="214dp"
+        android:layout_marginTop="179dp"
+        android:text="（种太阳+幸福拍手歌+我是一条小青龙+蜗牛与黄鹂鸟+数鸭子）"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/gaoyin" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="155dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="393dp"
+        android:text="（布谷鸟+勾勾手指头+采蘑菇的小姑娘+来升旗+我们多么幸福）"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/diyin" />
+
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/zhongyin" />
+
+    <Button
+        android:id="@+id/gequer"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gequsan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/shape1"
+        android:gravity="center_vertical"
+        android:text="     中性音乐"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/gequyi"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/shape1"
+        android:gravity="center_vertical"
+        android:text="     正性音乐"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="155dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="571dp"
+        android:text="（让我们荡起双桨+鲁冰花+小草+虫儿飞）"
+        android:textSize="20sp" />
 </RelativeLayout>
