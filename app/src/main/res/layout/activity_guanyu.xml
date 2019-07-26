@@ -51,7 +51,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ours2"/>
+                android:src="@drawable/ous2"/>
         </LinearLayout>
 
     </ScrollView>
